@@ -759,3 +759,56 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+/* Container wrap alignment */
+.tech-stack-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 15px !important;
+  max-width: 1050px;
+  margin: 0 auto !important;
+}
+
+/* Perfect Pill Badge Design */
+.skill-pill {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 10px 22px !important;
+  border-radius: 50px !important;
+  background: rgba(26, 16, 44, 0.6) !important;
+  border: 1.5px solid rgba(178, 121, 216, 0.35) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25) !important;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  cursor: default;
+  width: auto !important;
+  max-width: max-content !important;
+}
+
+/* Hover glow effect */
+.skill-pill:hover {
+  transform: translateY(-4px) scale(1.03) !important;
+  border-color: rgba(199, 112, 240, 0.8) !important;
+  box-shadow: 0 8px 25px rgba(199, 112, 240, 0.3) !important;
+  background: rgba(38, 22, 65, 0.85) !important;
+}
+
+/* Icon size and spacing */
+.skill-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  font-size: 1.45rem !important;
+  margin-right: 10px !important;
+}
+
+/* Text label typography */
+.skill-name {
+  color: #f1f5f9 !important;
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  white-space: nowrap !important;
+}

@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
-  AiOutlineHome,
   AiOutlineFundProjectionScreen,
+  AiOutlineHome,
   AiOutlineUser,
 } from "react-icons/ai";
+import React, { useState } from "react";
 
+import Button from "react-bootstrap/Button";
 import { CgFileDocument } from "react-icons/cg";
+import { CgGitFork } from "react-icons/cg";
+import Container from "react-bootstrap/Container";
+import { ImBlog } from "react-icons/im";
+import { Link } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import logo from "../Assets/logo.png";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          Pt.
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -104,7 +104,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/PrinceTi/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

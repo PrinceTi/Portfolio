@@ -1,11 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { Col, Container, Row } from "react-bootstrap";
+import { MdEmail, MdPhone } from "react-icons/md";
+
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import React from "react";
 
 function Footer() {
   let date = new Date();
@@ -14,7 +12,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Prince Tiwari</h3>
+          <h3>Designed & Developed by Prince Tiwari</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} PT</h3>
@@ -23,10 +21,29 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
+                href="mailto:princevuejs@gmail.com"
+                style={{ color: "white" }}
+                aria-label="email"
+              >
+                <MdEmail />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="tel:+919340824001"
+                style={{ color: "white" }}
+                aria-label="phone"
+              >
+                <MdPhone />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
                 href="https://github.com"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
+                aria-label="github"
               >
                 <AiFillGithub />
               </a>
@@ -37,6 +54,7 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
+                aria-label="linkedin"
               >
                 <FaLinkedinIn />
               </a>

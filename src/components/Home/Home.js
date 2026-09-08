@@ -1,17 +1,18 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
-import Home2 from "./Home2";
-import Type from "./Type";
-import Techstack from "../About/Techstack";
-import Github from "../About/Github";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineTwitter,
 } from "react-icons/ai";
+import { Col, Container, Row } from "react-bootstrap";
+
 import { FaLinkedinIn } from "react-icons/fa";
+import Github from "../About/Github";
+import Home2 from "./Home2";
+import Particle from "../Particle";
+import React from "react";
+import Techstack from "../About/Techstack";
+import Type from "./Type";
+import homeLogo from "../../Assets/home-main.svg";
 
 function Home() {
   return (
@@ -61,7 +62,7 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/PrinceTi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -71,7 +72,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/PrinceTi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -81,7 +82,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/PrinceTi/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -91,7 +92,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/PrinceTi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

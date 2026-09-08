@@ -1,9 +1,10 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
-import macOs from "../../Assets/TechIcons/Apple MacOSX.svg";
+
+import React from "react";
 import chrome from "../../Assets/TechIcons/Google Chrome.svg";
-import vsCode from "../../Assets/TechIcons/vscode.svg";
 import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
+import macOs from "../../Assets/TechIcons/Apple MacOSX.svg";
+import vsCode from "../../Assets/TechIcons/vscode.svg";
 
 function Toolstack() {
   return (
