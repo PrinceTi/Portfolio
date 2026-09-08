@@ -1,8 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
 
-import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import React from "react";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/avatar.svg";
 

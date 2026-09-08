@@ -6,11 +6,8 @@ import {
 import { Col, Container, Row } from "react-bootstrap";
 
 import { FaLinkedinIn } from "react-icons/fa";
-import Github from "../About/Github";
 import Home2 from "./Home2";
 import Particle from "../Particle";
-import React from "react";
-import Techstack from "../About/Techstack";
 import Type from "./Type";
 import homeLogo from "../../Assets/home-main.svg";
 
