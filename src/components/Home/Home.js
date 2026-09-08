@@ -72,7 +72,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/PrinceTi"
+                  href="https://x.com/Princet41746081"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -82,7 +82,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/PrinceTi/"
+                  href="https://www.linkedin.com/in/prince1994/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -92,7 +92,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/PrinceTi"
+                  href="https://www.instagram.com/prince.tiwari.406/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

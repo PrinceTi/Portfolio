@@ -16,7 +16,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Accomplished Senior Frontend Developer with 5+ years of experience
+              Accomplished Senior Frontend Developer with 7+ years of experience
               architecting highly responsive, intuitive, and high-performance web applications.
               <br />
               <br />I specialize in core modern frameworks like

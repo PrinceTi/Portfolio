@@ -12,7 +12,7 @@ function AboutCard() {
             <span className="purple">India</span>.
             <br />
             I am currently working as a{" "}
-            <span className="purple">Senior Frontend Developer</span> with 5+ years of experience.
+            <span className="purple">Senior Frontend Developer</span> with 7+ years of experience.
             <br />
             I hold a <span className="purple">Multimedia Diploma</span> from{" "}
             <span className="purple">Virtual Voyage, Indore</span>.
