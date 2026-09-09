@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { BsBriefcaseFill } from "react-icons/bs";
 import React from "react";
 import Tilt from "react-parallax-tilt";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/profile.jpg";
 
 function Home2() {
   const experiences = [
@@ -72,10 +72,16 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
+          <Tilt>
+            <div className="profile-thumb-wrapper">
+              <img
+                src={myImg}
+                className="profile-thumb-img"
+                alt="Prince Tiwari"
+              />
+            </div>
+          </Tilt>
+        </Col>
         </Row>
 
         {/* Work Experience Section */}

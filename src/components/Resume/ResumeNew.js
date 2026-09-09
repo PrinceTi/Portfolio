@@ -8,6 +8,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Prince_Tiwari.pdf";
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -33,7 +34,7 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
+        <Row className="resume" style={{minHeight:'80vh'}}>
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>

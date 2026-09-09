@@ -1,12 +1,17 @@
 import {
   SiBootstrap,
+  SiFlutter,
   SiGit,
   SiGraphql,
   SiHtml5,
   SiJavascript,
+  SiMongodb,
+  SiMui,
   SiMysql,
+  SiNodedotjs,
   SiNuxtdotjs,
   SiPostman,
+  SiReact,
   SiSass,
   SiSocketdotio,
   SiTypescript,
@@ -23,8 +28,13 @@ function Techstack() {
   const skills = [
     { name: "Vue.js", icon: <SiVuedotjs />, color: "#4FC08D" },
     { name: "Nuxt.js", icon: <SiNuxtdotjs />, color: "#00DC82" },
+    { name: "React.js", icon: <SiReact />, color: "#61DAFB" },
+    { name: "Flutter", icon: <SiFlutter />, color: "#02569B" },
+    { name: "Material UI", icon: <SiMui />, color: "#007FFF" },
     { name: "JavaScript", icon: <SiJavascript />, color: "#F7DF1E" },
     { name: "TypeScript", icon: <SiTypescript />, color: "#3178C6" },
+    { name: "Node.js", icon: <SiNodedotjs />, color: "#5FA04E" },
+    { name: "MongoDB", icon: <SiMongodb />, color: "#47A248" },
     { name: "Vite", icon: <SiVite />, color: "#646CFF" },
     { name: "HTML5 / CSS3", icon: <SiHtml5 />, color: "#E34F26" },
     { name: "SASS / SCSS", icon: <SiSass />, color: "#CC6699" },
@@ -39,7 +49,14 @@ function Techstack() {
   ];
 
   return (
-    <Row className="tech-stack-container" style={{ justifyContent: "center", paddingBottom: "50px", paddingTop: "10px" }}>
+    <Row
+      className="tech-stack-container"
+      style={{
+        justifyContent: "center",
+        paddingBottom: "50px",
+        paddingTop: "10px",
+      }}
+    >
       {skills.map((skill, index) => (
         <div key={index} className="skill-pill">
           <span className="skill-icon" style={{ color: skill.color }}>

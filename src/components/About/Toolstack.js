@@ -1,6 +1,7 @@
 import { Col, Row } from "react-bootstrap";
 
 import React from "react";
+import { SiAndroidstudio } from "react-icons/si";
 import chrome from "../../Assets/TechIcons/Google Chrome.svg";
 import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
 import macOs from "../../Assets/TechIcons/Apple MacOSX.svg";
@@ -13,17 +14,24 @@ function Toolstack() {
         <img src={macOs} alt="macOs" className="tech-icon-images" />
         <div className="tech-icons-text">Mac Os</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons ">
+
+      <Col xs={4} md={2} className="tech-icons">
         <img src={chrome} alt="Chrome" className="tech-icon-images" />
         <div className="tech-icons-text">Google Chrome</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons ">
+
+      <Col xs={4} md={2} className="tech-icons">
         <img src={vsCode} alt="vsCode" className="tech-icon-images" />
         <div className="tech-icons-text">Vs Code</div>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons ">
-        <img src={intelliJ} alt="go" className="tech-icon-images" />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAndroidstudio style={{ fontSize: "1.6rem", color: "#3DDC84" }} />
+        <div className="tech-icons-text">Android Studio</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={intelliJ} alt="IntelliJ" className="tech-icon-images" />
         <div className="tech-icons-text">IntelliJ</div>
       </Col>
     </Row>
