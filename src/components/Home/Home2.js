@@ -81,7 +81,7 @@ function Home2() {
         {/* Work Experience Section */}
         <Row style={{ justifyContent: "center", marginTop: "70px" }}>
           <Col md={12} className="text-center">
-            <h1 style={{ fontSize: "2.4em", Color: "white" }}>
+            <h1 style={{ fontSize: "2.4em", color: "white" }}>
               Work <span className="purple">Experience</span>
             </h1>
             <p style={{ color: "#cbd5e1" }}>
