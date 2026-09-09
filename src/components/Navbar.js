@@ -6,6 +6,7 @@ import {
 } from "react-icons/ai";
 import React, { useState } from "react";
 
+import { AiOutlineMail } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
 import { CgFileDocument } from "react-icons/cg";
 import { CgGitFork } from "react-icons/cg";
@@ -78,6 +79,16 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineMail style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 

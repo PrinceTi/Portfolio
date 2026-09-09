@@ -3,12 +3,12 @@ import { Col, Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCards";
 import React from "react";
-import lbilImg from "../../Assets/Projects/lbil.png";
+import lbilImg from "../../Assets/Projects/lbil.jpg";
 // Project Screenshots
-import lymphomapImg from "../../Assets/Projects/lymphomap.png";
-import oddvegaImg from "../../Assets/Projects/oddvega.png";
-import quizzortImg from "../../Assets/Projects/quizzort.png";
-import wmImg from "../../Assets/Projects/wm.png";
+import lymphomapImg from "../../Assets/Projects/lymphomap.jpg";
+import oddvegaImg from "../../Assets/Projects/oddvega.jpg";
+import quizzortImg from "../../Assets/Projects/quizzort.jpg";
+import wmImg from "../../Assets/Projects/wm.jpg";
 
 function Projects() {
   return (
