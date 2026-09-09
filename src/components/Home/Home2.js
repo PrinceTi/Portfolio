@@ -1,12 +1,6 @@
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiOutlineTwitter,
-} from "react-icons/ai";
 import { Col, Container, Row } from "react-bootstrap";
 
 import { BsBriefcaseFill } from "react-icons/bs";
-import { FaLinkedinIn } from "react-icons/fa";
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/avatar.svg";
